@@ -10,4 +10,8 @@
  */
 export function firstAddLast(nums) {
   // TODO
+  const first = nums[0];
+  const last = nums.at(-1);
+
+  return first + last;
 }
